@@ -159,7 +159,7 @@ clear
 #Include intel-ucode/amd-ucode if you use intel/amd processor.
 echo "Installing Base system with lts kernel!!!"
 sleep 2s
-pacstrap /mnt base base-devel linux-lts linux-lts-headers
+pacstrap /mnt base base-devel linux linux-headers intel-ucode
 clear
 echo "generating fstab file"
 genfstab -U /mnt >> /mnt/etc/fstab
