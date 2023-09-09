@@ -19,12 +19,12 @@ For [mobile broadband connection check here](https://wiki.archlinux.org/title/Mo
 2. Install git in your live media and clone [this](https://github.com/whoisYoges/magic-arch-installer) repository in your installation media.
 ```
 pacman -Sy --needed --noconfirm git && \
-git clone https://github.com/whoisYoges/magic-arch-installer
+git clone https://github.com/aneeshlingala/mac
 ```
 
 3. Go to magic-arch-installer directory and execute the installer script.
 ```
-cd magic-arch-installer
+cd mac
 ```
 - 3a. For UEFI installatios:
  ```
