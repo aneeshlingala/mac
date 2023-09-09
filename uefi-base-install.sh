@@ -18,7 +18,7 @@ ________________________________________________________________________________
 |                Install arch linux in few clicks. Even a 5 year kid can install arch now.                |
 |---------------------------------------------------------------------------------------------------------|
 |                               Base Installation Of Arch Linux Begins Now                                |
-| Check: https://github.com/whoisYoges/magic-arch-installer/ To Know More Details About This Installation |
+| Check: https://github.com/aneeshlingala/mac To Know More Details About This Installation |
 |---------------------------------------------------------------------------------------------------------|
 |_________________________________________________________________________________________________________|
 
@@ -43,7 +43,7 @@ clear
 
 
 lsblk
-echo "Choose a familier disk utility tool to partition your drive!"
+echo "Choose a familiar disk utility tool to partition your drive!"
 echo " 1. fdisk"
 echo " 2. cfdisk"
 echo " 3. gdisk"
@@ -157,7 +157,7 @@ clear
 clear
 #Replace kernel and kernel-header file and with your requirements (eg linux-zen linux-zen-headers or linux linux-headers)
 #Include intel-ucode/amd-ucode if you use intel/amd processor.
-echo "Installing Base system with lts kernel!!!"
+echo "Installing Base system with mainline kernel."
 sleep 2s
 pacstrap /mnt base base-devel linux linux-headers intel-ucode
 clear
